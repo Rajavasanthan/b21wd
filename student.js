@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const mongodb = require("mongodb");
-const URL = "mongodb://localhost:27017";
+const URL = "mongodb+srv://vasanth:user123@cluster0.rdv5i.mongodb.net?retryWrites=true&w=majority";
 const DB = "b21studentdb";
 
 app.use(cors())
